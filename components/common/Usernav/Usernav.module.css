@@ -1,0 +1,7 @@
+.list {
+  @apply flex;
+}
+
+.item {
+  @apply mr-6 cursor-pointer transition duration-500 flex;
+}
