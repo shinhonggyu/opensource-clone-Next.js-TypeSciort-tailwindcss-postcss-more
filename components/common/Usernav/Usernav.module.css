@@ -3,5 +3,9 @@
 }
 
 .item {
-  @apply mr-6 cursor-pointer transition duration-500 flex;
+  @apply mr-6 cursor-pointer transition flex items-center text-primary outline-none;
+
+  &:hover {
+    @apply text-accents-6 scale-110;
+  }
 }
